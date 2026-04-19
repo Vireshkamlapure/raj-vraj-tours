@@ -1,0 +1,17 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+@theme {
+  /* Brand colors for Raj-VRAJ-TOURS */
+  --color-primary: #1e40af;   /* Trustworthy Deep Blue */
+  --color-accent: #f59e0b;    /* Travel Gold/Orange */
+  
+  /* Custom fonts or other tokens go here */
+  --font-display: "Inter", sans-serif;
+}
+
+/* Base styles */
+body {
+  @apply bg-slate-50 text-slate-900;
+}
